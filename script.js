@@ -12,11 +12,11 @@ function lampOff(){
 }
 
 function lampBroken(){
-  lamp.src = '.img/quebrada.jpg';
+  lamp.src = './img/quebrada.jpg';
 }
 
 turnOn.addEventListener ('click', lampOn );
 turnOff.addEventListener ('click', lampOff );
 lamp.addEventListener ('mouseover', lampOn);
 lamp.addEventListener ('mouseleave',lampOff);
-lamp.addEventListener('dbclick', lampBroken );
+lamp.addEventListener('dblclick', lampBroken );
